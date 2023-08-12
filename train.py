@@ -279,8 +279,8 @@ while True:
                     'best_val_loss': best_val_loss,
                     'config': config,
                 }
-                ckpt_file_name='ckpt.pt'
-                ckpt_file_name_with_iter = f"{ckpt_file_name}_iter_{iter_num}.ckpt"
+                #ckpt_file_name='ckpt'
+                ckpt_file_name_with_iter = f"ckpt_iter_{iter_num}.pt"
                 ckpt_file_path = os.path.join(out_dir, ckpt_file_name_with_iter)
                 print(f"saving checkpoint to {ckpt_file_path}")
                 torch.save(checkpoint, ckpt_file_path)
