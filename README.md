@@ -3,7 +3,11 @@
 
 ![nanoGPT](assets/nanogpt.jpg)
 
-Built on top of all the great stuff below but with the addition of the Simpsons TV dataset and support for checkpoints. Check out my colab notebook to experience it or just do all the other great stuff with nanoGPT that is listed below.
+Simpsons NanoGPT readme:
+
+Built on top of all the great stuff of NanoGPT below but with the addition of the Simpsons TV dataset and support for checkpoints. Check out my [colab notebook](https://colab.research.google.com/drive/1ToFheh_WPc9v_nspega_MqX5t130MYWB) to experience it or just do all the other great stuff with nanoGPT that is listed below.
+
+NanoGPT readme:
 
 The simplest, fastest repository for training/finetuning medium-sized GPTs. It is a rewrite of [minGPT](https://github.com/karpathy/minGPT) that prioritizes teeth over education. Still under active development, but currently the file `train.py` reproduces GPT-2 (124M) on OpenWebText, running on a single 8XA100 40GB node in about 4 days of training. The code itself is plain and readable: `train.py` is a ~300-line boilerplate training loop and `model.py` a ~300-line GPT model definition, which can optionally load the GPT-2 weights from OpenAI. That's it.
 
