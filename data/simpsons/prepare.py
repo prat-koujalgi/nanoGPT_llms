@@ -16,7 +16,7 @@ import numpy as np
 #    with open(input_file_path, 'w') as f:
 #        f.write(requests.get(data_url).text)
 
-input_file_path = os.path.join(os.path.dirname(__file__), 'simpsons.txt')
+input_file_path = os.path.join(os.path.dirname(__file__), 'Plant_1_Weather_Sensor_Data.csv')
 with open(input_file_path, 'r') as f:
     data = f.read()
 print(f"length of dataset in characters: {len(data):,}")
